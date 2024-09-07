@@ -1,0 +1,96 @@
+/* ============ COMMON STYLES =========== */
+body {
+  background-color: #fff;
+  width: 1440px;
+  height: 3300px;
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #2e2f42;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ============ /COMMON STYLES =========== */
+
+/* ============ HEADER STYLES + LOGO FOTTER =========== */
+.page-logo,
+.fotter-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.text-color,
+.text-logo-fotter {
+  color: #4d5ae5;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+/* ============ /HEADER STYLES + LOGO FOTTER =========== */
+
+/* ============ MAIN STYLES ============= */
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.benefits-list-text,
+.team-list-text,
+.portfolio-list-text {
+  color: #434455;
+}
+
+.portfolio-list-image {
+  width: 360px;
+  height: 300px;
+}
+/* ============ /MAIN STYLES ============= */
+
+/* ============ FOTTER STYLES ============ */
+.fotter-logo-text {
+  color: #f4f4fd;
+}
+/* ============ FOTTER STYLES ============ */
