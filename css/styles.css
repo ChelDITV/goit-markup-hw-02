@@ -192,11 +192,11 @@ p {
 /* ============ /MAIN STYLES ============= */
 
 /* ============ FOTTER STYLES ============ */
-.fotter-section {
-  background: #2e2f42;
+.end-section {
+  background-color: #2e2f42;
 }
 
-.fotter-link {
+.end-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -206,11 +206,11 @@ p {
   color: #4d5ae5;
 }
 
-.fotter-logo {
+.end-logo {
   color: #f4f4fd;
 }
 
-.fotter-logo-text {
+.end-logo-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
