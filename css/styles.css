@@ -52,8 +52,7 @@ p {
   font-style: normal;
 }
 
-.page-logo,
-.fotter-logo {
+.page-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -63,8 +62,7 @@ p {
   color: #4d5ae5;
 }
 
-.page-logo-color,
-.text-logo-fotter {
+.page-logo-color {
   color: #2e2f42;
 }
 
@@ -136,7 +134,7 @@ p {
   color: #2e2f42;
 }
 
-.team-list {
+.team-list-item {
   background-color: #ffffff;
 }
 
@@ -196,6 +194,20 @@ p {
 /* ============ FOTTER STYLES ============ */
 .fotter-section {
   background: #2e2f42;
+}
+
+.fotter-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.fotter-logo {
+  color: #f4f4fd;
 }
 
 .fotter-logo-text {
