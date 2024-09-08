@@ -1,10 +1,8 @@
 /* ============ COMMON STYLES =========== */
 body {
   background-color: #fff;
-  width: 1440px;
-  height: 3300px;
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
 }
 
 ul,
@@ -32,20 +30,42 @@ p {
 /* ============ /COMMON STYLES =========== */
 
 /* ============ HEADER STYLES + LOGO FOTTER =========== */
+
+.page-addres-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.page-addres-a:hover,
+.page-addres-a:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
+.page-addres {
+  text-decoration: none;
+  font-style: normal;
+}
+
 .page-logo,
 .fotter-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.text-color,
+.page-logo-color,
 .text-logo-fotter {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -68,10 +88,62 @@ p {
 
 /* ============ MAIN STYLES ============= */
 
+.order-main {
+  background-color: #2e2f42;
+}
+
+.order-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+}
+
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -87,10 +159,37 @@ p {
   width: 360px;
   height: 300px;
 }
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 /* ============ /MAIN STYLES ============= */
 
 /* ============ FOTTER STYLES ============ */
+.fotter-section {
+  background: #2e2f42;
+  width: 1440px;
+  height: 312px;
+}
+
 .fotter-logo-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 /* ============ FOTTER STYLES ============ */
